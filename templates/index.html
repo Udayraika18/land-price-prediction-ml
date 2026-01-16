@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Land Price Prediction System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app-wrapper">
+
+    <!-- HEADER -->
+    <header class="app-header">
+        <h1>Land Price Prediction System</h1>
+        <p>Machine Learning–Based Real Estate Valuation</p>
+    </header>
+
+    <!-- MAIN CARD -->
+    <main class="prediction-card">
+
+        <form id="predictForm">
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input
+                        type="text"
+                        id="location"
+                        placeholder="Whitefield, Bangalore"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="sqft">Total Area (sq.ft)</label>
+                    <input
+                        type="number"
+                        id="sqft"
+                        placeholder="1200"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="bhk">BHK</label>
+                    <input
+                        type="number"
+                        id="bhk"
+                        placeholder="2"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="bath">Bathrooms</label>
+                    <input
+                        type="number"
+                        id="bath"
+                        placeholder="2"
+                        required
+                    >
+                </div>
+
+            </div>
+
+            <button type="submit" class="predict-btn">
+                Predict Land Price
+            </button>
+
+        </form>
+
+        <!-- RESULT -->
+        <section id="result" class="result-box hidden"></section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+        <p>
+            Machine Learning · FastAPI · Uday Raika
+        </p>
+    </footer>
+    <!-- Social Footer Strip -->
+    <div class="social-footer">
+        <a href="https://github.com/Udayraika18" target="_blank" class="social-link">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+            <span>GitHub</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/uday-raika-7090a429b/" target="_blank" class="social-link">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+            <span>LinkedIn</span>
+        </a>
+    </div>
+
+</div>
+
+<!-- External JS -->
+<script src="/static/script.js"></script>
+
+</body>
+</html>

@@ -20,6 +20,8 @@ This project uses supervised machine learning techniques to estimate land prices
 - FastAPI
 - HTML, CSS, JavaScript
 
+Live link:- 
+https://land-price-prediction-ml.onrender.com
 ## 📁 Project Structure
 
 land-price-prediction/
